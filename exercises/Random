@@ -1,0 +1,2 @@
+def sum(num: int) -> int:
+    return num + num
