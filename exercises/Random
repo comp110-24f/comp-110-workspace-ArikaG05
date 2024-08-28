@@ -1,3 +1,17 @@
-def sum(num1: int, num2: int) -> int:
+def sum(num1: int, num2: int) -> int:  # Signature^
+    # Parameters^
     """Add two numbers together"""
+    # Docstring
     return num1 + num2
+
+
+# Example
+def celsius_to_fahrenheit(degrees_c: int) -> float:
+    # ^Signature                #<Input Type>  #<Return Type>
+    """Convert degrees Celsius to degrees Fahrenheit"""
+    # ^Docstring
+    return (degrees_c * 9 / 5) + 32
+
+
+celsius_to_fahrenheit(degrees_c=10)
+# This sigature has an arguement instead of parameters. Arguements are specific.
